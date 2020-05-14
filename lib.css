@@ -55,6 +55,35 @@ button {
 	flex-basis: calc(1 / 12 * 100%);
 }
 
+
+
+
+.align-items-start {
+	align-items: flex-start;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.align-items-end {
+	align-items: flex-end;
+}
+
+.align-self-start {
+	align-self: flex-start;
+}
+
+.align-self-center {
+	align-self: center;
+}
+
+.align-self-end {
+	align-self: flex-end;
+}
+
+
+
 .col { flex: 1; }
 .col-1 { flex-basis: calc(1 / 12 * 100%); }
 .col-2 { flex-basis: calc(2 / 12 * 100%); }
