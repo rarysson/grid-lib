@@ -1,0 +1,47 @@
+/* Reset */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+button {
+	cursor: pointer;
+	font-family: inherit;
+}
+/* Reset */
+
+
+
+/* The framework */
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col { flex: 1; }
+.col-1 { flex-basis: calc(1 / 12 * 100%); }
+.col-2 { flex-basis: calc(2 / 12 * 100%); }
+.col-3 { flex-basis: 25%; }
+.col-4 { flex-basis: calc(4 / 12 * 100%); }
+.col-5 { flex-basis: calc(5 / 12 * 100%); }
+.col-6 { flex-basis: 50%; }
+.col-7 { flex-basis: calc(7 / 12 * 100%); }
+.col-8 { flex-basis: calc(8 / 12 * 100%); }
+.col-9 { flex-basis: 75%; }
+.col-10 { flex-basis: calc(10 / 12 * 100%); }
+.col-11 { flex-basis: calc(11 / 12 * 100%); }
+.col-12 { flex-basis: 100%; }
+/* The framework */
